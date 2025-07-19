@@ -3,15 +3,26 @@
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <div id="container">
-            <h1>People boarded:</h1>
-            <h2 id="count-el">0</h2>
-            <button id="increment-btn" onclick="increment()">INCREMENT</button>
-            <button id="save-btn" onclick="save()">SAVE</button>
-            <p id="save-el">Previous boardings: </p>
-            <script src="index.js">
-                nnerText
-            </script>
+        <div class="container">
+            <div>
+                <h3 class="team">HOME</h3>
+                <h2 class="head" id="ed">12</h2>
+                <div class="pluses">
+                    <button class="px" onclick="add(1)">+1</button>
+                    <button class="py" onclick="add(2)">+2</button>
+                    <button class="pz" onclick="add(3)">+3</button>
+                </div>
+            </div>
+            <div>
+                <h3 class="team">GUEST</h3>
+                <h2 class="head" id="ef">15</h2>
+                <div class="pluses">
+                    <button class="px" onclick="addx(1)">+1</button>
+                    <button class="py" onclick="addx(2)">+2</button>
+                    <button class="pz" onclick="addx(3)">+3</button>
+                </div>
+            </div>
         </div>
+        <script src="index.js"></script>
     </body>
 </html>

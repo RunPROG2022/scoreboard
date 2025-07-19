@@ -1,15 +1,17 @@
-let saveEl = document.getElementById("save-el")
-let countEl = document.getElementById("count-el")
-let count = 0
+// let adder = document.getElementById("z")
+let addor = document.getElementById("ed")
+// let addfr = document.getElementById("ef")
 
-function increment() {
-    count += 1
-    countEl.textContent = count
+let point = 12
+function add(points) {
+    point += points
+    addor.textContent = point
 }
 
-function save() {
-    let countStr = count + " - "
-    saveEl.textContent += countStr
-    countEl.textContent = 0
-    count = 0
+let addfr = document.getElementById("ef")
+
+let pont = 15
+function addx(points) {
+    pont += points
+    addfr.textContent = pont
 }
